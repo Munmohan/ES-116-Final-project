@@ -1,4 +1,5 @@
 # ES-116-Final-project
+```
 #ifdef ENABLE_DEBUG
 #define DEBUG_ESP_PORT Serial
 #define NODEBUG_WEBSOCKETS
@@ -192,3 +193,4 @@ void loop() {
   SinricPro.handle(); // Keep SinricPro connection alive
   handleFlipSwitches(); // Check for tactile switch input
 }
+```
